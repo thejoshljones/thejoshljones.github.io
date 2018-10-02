@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+	background-color: #DC1400;
+
+}
+p, h1, h3, h5{
+	font-family: Helvetica, sans-serif;
+	color: white;
+}
+p {
+	font-weight: normal;
+}
+h1 {
+	font-weight: 900;
+	font-size: 50px;
+}
+h3 {
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: bold
+}
+h5 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}

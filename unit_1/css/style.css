@@ -1,6 +1,14 @@
 body {
-	background-color: black;
+	text-align: center;
 }
-h1, p {
-	color: gold;
+h1, h3 {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+}
+
+h3, {
+	font-size: 24px;
+}
+p {
+	font-family: "Courier New", monospace;
 }
