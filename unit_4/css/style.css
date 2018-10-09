@@ -52,12 +52,12 @@ nav {
 	text-align: right;
 	position: fixed;
 	width: 100%;
-	color: black;
-	background-color: #E8DFFF;
+	color: white;
+	background-color: black;
 	font-weight: 200;
 	padding-top: .5em;
 	padding-bottom: .5em;
-
+	text-align: center;
 }
 a {
 	text-decoration: none;
@@ -65,15 +65,19 @@ a {
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: .05em;
-	color: black;
-	padding-right: .5em;
-	padding-left: .5em;
+	color: white;
+	padding-right: 2em;
+	padding-left: 2em;
 }
 hr {
 	height: .1em;
 	color: black;
 	background-color: black;
 	position: fixed;
+}
+div {
+	column-count: 3;
+	column-width: 20%;
 }
 .topic {
 	font-size: ;
@@ -87,7 +91,7 @@ hr {
 .main_nav {
 	font-weight: 700;
 	font-size:1.1em;
-	text-align: left;
+	text-align: center;
 }
 #intro {
 	padding-top: 9em;
@@ -95,7 +99,8 @@ hr {
 	margin-bottom: 0em;
 	background-color: #DC1400;
 	color: white;
-/*}
+}
+/*
 #services {
 	color: white;
 	padding-top: 1.5em;
@@ -103,5 +108,5 @@ hr {
 	background-color: #DC1400;
 }*/
 #work {
-	padding-top: 5em;
+	padding-top: 10em;
 }
