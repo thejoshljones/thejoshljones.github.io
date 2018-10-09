@@ -1,27 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Fira+Sans+Extra+Condensed:400,900|Lobster');
-
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:100,200,300,400,500,600,700,800,900|Fira+Sans+Extra+Condensed:100,200,300,400,500,600,700,800,900|Fira+Sans:100,200,300,400,500,600,700,800,900);
 body {
 	text-align: center;
 	background-color: #DC1400;
-}
-p, h3, h5{
 	font-family: "Fira Sans", sans-serif;
+
+}
+p, h3, h5, h2{
 	color: white;
 }
 p {
 	font-weight: normal;
+	line-height: 1.1em;
+	font-size: 1.5em;
+	font-weight: 400;
+	letter-spacing: .0em;
 }
 h1 {
 	font-weight: 900;
-	font-size: 200px;
+	font-size: 15em;
 	font-family: "Fira Sans Extra Condensed", sans-serif;
 	color: white;
 	text-transform: uppercase;
+	letter-spacing: .015em;
 }
 h3 {
 	font-size: 22px;
 	text-transform: uppercase;
-	font-weight: 900
+	font-weight: 700
+	font-family: "Fira Sans Extra Condensed", sans-serif;
 }
 h5 {
 	font-size: 18px;
@@ -38,4 +44,31 @@ img {
 a {
 	color: white;
 	text-decoration: none;
+	font-family: "Fira Sans Condensed", sans-serif;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .05em;
+}
+h2 {
+	text-transform: uppercase;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-weight: 700;
+	font-size:2.5em;
+	letter-spacing: .05em;
+}
+nav {
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size:1.2em;
+	letter-spacing: .1em;
+}
+.intro {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: 20em;
+    padding-bottom: 20px;
+    margin: 20px;
 }
