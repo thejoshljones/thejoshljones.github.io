@@ -17,8 +17,8 @@ p {
 	line-height: 1.3em;
 	font-size: 1.4em;
 	font-weight: 400;
-	margin-left: 12em;
-	margin-right: 12em;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 h1 {
 	font-weight: 900;
@@ -67,6 +67,7 @@ a {
 	letter-spacing: .05em;
 	color: black;
 	padding-right: .5em;
+	padding-left: .5em;
 }
 hr {
 	height: .1em;
@@ -79,9 +80,14 @@ hr {
 	color: white;	
 }
 .nav {
-	font-weight: 300;
+	font-weight: 700;
 	font-size:1.1em;
 	letter-spacing: .1em;
+}
+.main_nav {
+	font-weight: 700;
+	font-size:1.1em;
+	text-align: left;
 }
 #intro {
 	padding-top: 9em;
