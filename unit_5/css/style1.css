@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:100,200,300,400,500,600,700,800,900|Fira+Sans:100,200,300,400,500,600,700,800,900);
+* {
+	padding: 0;
+	margin: 0;
+}
+header {
+	background-color: #FFED74;
+}
+body {
+	text-align: center;
+	background-color: #E8DFFF;
+	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+	font-size: 16px; /* 1em=16px*/
+}
+img {
+	width: 15em;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+	a:hover {
+		color: #746F7F;
+	}
+nav {
+	color: white;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: #FFED74;
+}
+footer {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-bottom: 0em;
+	background-color: #FF957E;
+	color: white;
+}
+h1 {
+	font-weight: 900;
+	font-size: 10em;
+	font-family: "Fira Sans Extra Condensed", Helvetica, Arial, sans-serif;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .015em;
+	padding-top: .2em;
+}
+h2, h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h2 {
+	font-size:2.5em;
+	letter-spacing: .05em;
+}
+h3 {
+	font-size: 22px;
+}
+p {
+	line-height: 1.3em;
+	font-size: 1.4em;
+	font-weight: 400;
+	width: 35em;
+	margin: auto;
+	/*margin-left: 20%;
+	margin-right: 20%;*/
+}
+nav a {
+	padding-right: 2em;
+	padding-left: 2em;
+	color: white;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .05em;
+}
+div, section {
+	background-color: #FFE2B8;
+}
+.links {
+	color: black;
+}
+#intro, #about {
+	background-color: #DC1400;
+	color: white;
+}
+#intro {
+	padding-top: 10em;
+	padding-bottom: 12em;
+}
+#about {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+#work {
+	padding-top: 4em
+}
+#about a {
+	color: black;	
+}
+#about a:hover {
+		color: #746F7F;
+	}

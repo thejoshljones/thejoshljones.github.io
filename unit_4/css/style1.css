@@ -73,6 +73,9 @@ nav a {
 	font-weight: 600;
 	letter-spacing: .05em;
 }
+div {
+	display: inline;
+}
 .links {
 	color: black;
 }
