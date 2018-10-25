@@ -4,6 +4,7 @@
 	<title>Josh Jones</title>
 	<link rel="stylesheet" type="text/css" href="css/style1.css">
 	<link rel="icon" href="images/icon.png" type="image/png" sizes="16x16">
+	<script src="masonry.pkgd.min.js"></script>
 </head>
 <body>	
 	<nav>
@@ -29,30 +30,31 @@
 	</section> -->
 	<section id="work">
 		<h2>Work</h2>
-		<div>
-			<img src="images/Franken.jpg" alt="Franken Resigns" title="Franken Resigns">
-			<h3>News</h3>
-		</div>
-		<div>
-			<img src="images/Vote.jpg" alt="Election Guide" title="Election Guide">
-			<h3> Election Guide </h3>
-		</div>
-		<div>
-			<img src="images/Hamilton.jpg" alt="Hamilton vs. Jefferson" title="Hamilton vs. Jerfferson">
-			<h3> Opinion </h3>
-		</div>
-		<div>
-			<img src="images/Visionaries.jpg" alt="Visionaries in Science" title="Visionaries in Science">
-			<h3>Science & Health</h3>
-		</div>
-		<div>
-			<img src="images/Gold_Rush.jpg" alt="Gold Rush" title="Gold Rush">
-			<h3>Winter Olympics 2018</h3>
-		</div>
-		<div>
-			<img src="images/Trump_Factor.jpg" alt="The Trump Factor" title="The Trump Factor">
-			<h3>Business</h3>
-		</div>
+			<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+			<div class="grid-item grid-item--width2">
+				<img src="images/Franken.jpg" alt="Franken Resigns" title="Franken Resigns">
+				<h3>News</h3>
+			</div class="grid-item grid-item--width2">
+			<div class="grid-item grid-item--width2">
+				<img src="images/Vote.jpg" alt="Election Guide"title="Election Guide">
+				<h3> Election Guide </h3>
+			</div class="grid-item grid-item--width2">
+			<div class="grid-item grid-item--width2">
+				<img src="images/Hamilton.jpg" alt="Hamilton vs. Jefferson" title="Hamilton vs. Jerfferson">
+				<h3> Opinion </h3>
+			</div class="grid-item grid-item--width2">
+			<div class="grid-item grid-item--width2">
+				<img src="images/Visionaries.jpg" alt="Visionaries in Science" title="Visionaries in Science">
+				<h3>Science & Health</h3>
+			</div class="grid-item grid-item--width2">
+			<div class="grid-item grid-item--width2">
+				<img src="images/Gold_Rush.jpg" alt="Gold Rush" title="Gold Rush">
+				<h3>Winter Olympics 2018</h3>
+			</div class="grid-item grid-item--width2">
+			<div class="grid-item grid-item--width2">
+				<img src="images/Trump_Factor.jpg" alt="The Trump Factor" title="The Trump Factor">
+				<h3>Business</h3>
+			</div class="grid-item grid-item--width2">
 	</section>
 	<section id="about">
 		<img src="images/me.jpg" alt="Josh Jones" title="Josh Jones">
