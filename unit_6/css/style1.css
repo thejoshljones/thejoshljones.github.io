@@ -111,4 +111,5 @@ div {
 .grid-item {
     width: 25%;
     text-align: center;
+    margin:0;
 }
