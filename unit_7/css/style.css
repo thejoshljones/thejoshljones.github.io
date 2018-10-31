@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:100,200,300,400,500,600,700,800,900|Fira+Sans+Extra+Condensed:100,200,300,400,500,600,700,800,900|Fira+Sans:100,200,300,400,500,600,700,800,900);
+* {
+	padding: 0;
+	margin: 0em;
+}
+body {
+	text-align: center;
+	background-color: #E8DFFF;
+	font-family: "Fira Sans", sans-serif;
+	padding: 0;
+	margin:0;
+}
+h3, h5, h2{
+	color: black;
+}
+p {
+	line-height: 1.3em;
+	font-size: 1.4em;
+	font-weight: 400;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+h1 {
+	font-weight: 900;
+	font-size: 10em;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .015em;
+	margin-top: .3em;
+}
+h2 {
+	text-transform: uppercase;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 700;
+	font-size:2.5em;
+	letter-spacing: .05em;
+}
+h3 {
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700
+}
+h5 {
+	font-size: 18px;
+	font-weight: 900;
+}
+img {
+	width:250px;
+}
+nav {
+	text-align: right;
+	position: fixed;
+	width: 100%;
+	color: white;
+	background-color: black;
+	font-weight: 200;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .05em;
+	color: white;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+hr {
+	height: .1em;
+	color: black;
+	background-color: black;
+	position: fixed;
+}
+div {
+	column-count: 3;
+	column-width: 20%;
+}
+.topic {
+	font-size: ;
+	color: white;	
+}
+.nav {
+	font-weight: 700;
+	font-size:1.1em;
+	letter-spacing: .1em;
+}
+.main_nav {
+	font-weight: 700;
+	font-size:1.1em;
+	text-align: center;
+}
+#intro {
+	padding-top: 9em;
+	padding-bottom: 12em;
+	margin-bottom: 0em;
+	background-color: #DC1400;
+	color: white;
+}
+/*
+#services {
+	color: white;
+	padding-top: 1.5em;
+	padding-bottom: 10em;
+	background-color: #DC1400;
+}*/
+#work {
+	padding-top: 10em;
+}

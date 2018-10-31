@@ -27,6 +27,7 @@ nav {
 	padding-top: .5em;
 	padding-bottom: .5em;
 	background-color: black;
+	z-index: 2;
 }
 footer {
 	padding-top: 2em;
@@ -34,6 +35,7 @@ footer {
 	margin-bottom: 0em;
 	background-color: #DC1400;
 	color: white;
+	clear: both;
 }
 h1 {
 	font-weight: 900;
@@ -52,6 +54,7 @@ h2 {
 	font-size:2.5em;
 	letter-spacing: .05em;
 	padding: 0 0 2em 0;
+	margin: auto;
 }
 h3 {
 	font-size: 22px;
@@ -78,9 +81,29 @@ nav a {
 div {
 	margin: 2em 2em;
 }
+footer img {
+	height: 1.5em;
+	width: auto;
+	padding: 0 1em;
+}
 .links {
 	color: black;
 }
+.float {
+	float: left;
+	width: 300px;
+	justify-content: center;
+	position: relative;
+	left: -50%
+}
+/*.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}*/
 #intro, #about {
 	background-color: #DC1400;
 	color: white;
@@ -90,25 +113,36 @@ div {
 	padding-bottom: 12em;
 }
 #about {
-	padding: 2em 0;
+	clear: both;
+	text-align: left;
+	width: 80%;
+	padding: 10%;
+	background-color: #DC1400;
+}
+#about img {
+	float: left;
+}
+#about_text {
+	padding: 0 15%;
+	margin: 0 20% 0 10%;
+	width: 60%;
+	vertical-align: middle;
 }
 #work {
 	padding-top: 4em;
 }
 #about a {
-	color: black;	
+	color: black;
 }
 #about a:hover {
 	opacity: .7;
 }
-#col {
-	display: flex;
+#center_contain {
+	justify-content: center;
+	margin: 0 5%;
+	position: relative;
+	left: 50%;
 }
-.grid-item img {
-    width: 200px;
-}
-
-.grid-item--width2 {
-    width: 150px;
-    text-align: center;
+#h2_nopad {
+	padding: 0;
 }
