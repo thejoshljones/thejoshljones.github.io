@@ -2,6 +2,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing:border-box;
 }
 body {
 	text-align: center;
@@ -137,11 +138,24 @@ footer img {
 #about a:hover {
 	opacity: .7;
 }
+<<<<<<< HEAD
 #center_contain {
 	justify-content: center;
 	margin: 0 5%;
 	position: relative;
 	left: 50%;
+=======
+#col {
+	display: flex;
+}
+.grid-item img {
+    width: 100%;
+}
+.grid-item {
+    width: 25%;
+    text-align: center;
+    margin:0;
+>>>>>>> 93a42bf7545fb13f5a341ab9e8d5742674fce748
 }
 #h2_nopad {
 	padding: 0;
