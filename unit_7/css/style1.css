@@ -44,7 +44,8 @@ h1 {
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: .015em;
-	padding-top: .2em;
+	padding: 0 0 .3em 0;
+	line-height: .97em;
 }
 h2, h3 {
 	text-transform: uppercase;
@@ -63,12 +64,11 @@ p {
 	line-height: 1.3em;
 	font-size: 1.4em;
 	font-weight: 400;
-	width: 35em;
+	max-width: 35em;
 	margin: auto;
+	padding: 0 2em;
 }
 nav a {
-	/*padding-right: 2em;
-	padding-left: 2em;*/
 	padding: 0 2em;
 	color: white;
 	font-size: 1.2em;
@@ -83,6 +83,14 @@ footer img {
 	height: 1.5em;
 	width: auto;
 	padding: 0 1em;
+}
+.big_p {
+	line-height: 1.2em;
+	font-size: 2.2em;
+	font-weight: 500;
+	max-width: 35em;
+	margin: auto;
+	padding: 0 2em;
 }
 .links {
 	color: black;
@@ -105,7 +113,8 @@ footer img {
 	line-height: 1.3em;
 	font-size: 1.4em;
 	font-weight: 400;
-	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 /*.clearfix:after {
   visibility: hidden;
@@ -126,19 +135,20 @@ footer img {
 #about {
 	clear: both;
 	text-align: left;
-	width: 1000px;
+	max-width: 1200px;
 	padding: 0%;
 	background-color: #DC1400;
 	display: inline-block;
 }
 #about img {
 	float: left;
+	box-sizing: border-box;
 }
 #about_text {
-	padding: 0 15%;
-	margin: 0 20% 0 10%;
 	width: 66.66%;
-	vertical-align: middle;
+	box-sizing: border-box;
+	float: left;
+	padding: 2em;
 }
 #work {
 	padding-top: 4em;
@@ -157,19 +167,26 @@ footer img {
 #h2_nopad {
 	padding: 0;
 }
-@media only screen and (max-width: 800px) {
-    .content {
+@media only screen and (max-width: 925px) {
+    .content, #about_text {
         width:50%;
     }
     #center_contain {
     	max-width: 700px;
     }
+  
 }
 @media only screen and (max-width: 500px) {
-    .content {
+    .content, #about_text {
         width:100%;
     }
     #center_contain {
     	max-width: 400px;
+    }
+    h1 {
+    	font-size: 18vw
+    }
+    #about img, #about_text {
+    	padding: 4em;
     }
 }
