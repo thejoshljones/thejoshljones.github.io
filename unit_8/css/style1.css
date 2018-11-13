@@ -116,14 +116,14 @@ footer img {
 	margin: 0;
 	padding: 0;
 }
-/*.clearfix:after {
+.clearfix:after {
   visibility: hidden;
   display: block;
   font-size: 0;
   content: " ";
   clear: both;
   height: 0;
-}*/
+}
 #intro, #about {
 	background-color: #DC1400;
 	color: white;
@@ -190,3 +190,27 @@ footer img {
     	padding: 4em;
     }
 }
+ .burst-12 {
+      background: red;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      text-align: center;
+      float: left;
+    }
+    .burst-12:before,
+    .burst-12:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: red;
+    }
+    .burst-12:before {
+      transform: rotate(30deg);
+    }
+    .burst-12:after {
+      transform: rotate(60deg);
+    }
